@@ -2,7 +2,6 @@
 $arr = [5, 1, 3, 2, 4, 100];
 //$arr = 'abcde';
 
-
 // Array elements sum
 function sumArr($arr) {
     $len = count($arr);
@@ -18,13 +17,13 @@ function sumArr($arr) {
     }
 
 // Using foreach
-/*
-    foreach ($arr as $key => $value){
-        $sumArr += $value;
+    /*
+        foreach ($arr as $key => $value){
+            $sumArr += $value;
 
-    }
-    return $sumArr;
-  */
+        }
+        return $sumArr;
+      */
 }
 
 print_r(sumArr($arr));
