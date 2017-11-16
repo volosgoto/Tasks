@@ -20,10 +20,9 @@ function sumArr($arr) {
     /*
         foreach ($arr as $key => $value){
             $sumArr += $value;
-
         }
         return $sumArr;
-      */
+    */
 }
 
 print_r(sumArr($arr));
