@@ -12,7 +12,5 @@ function minArr($arr) {
         }
     }
     return $max;
-
 }
-
 print_r(minArr($arr));

@@ -1,5 +1,4 @@
 <?php
-
 $arr = [-4, -2, -10, 5];
 
 // Array max elements
@@ -13,7 +12,5 @@ function minArr($arr) {
         }
     }
     return $min;
-
 }
-
 print_r(minArr($arr));
