@@ -1,17 +1,18 @@
 <?php
+
 $arr = [-4, -2, -10, 5];
 
 // Array max elements
 function minArr($arr) {
     $len = count($arr);
-    $max = $arr[0];
+    $min = $arr[0];
 
-    for ($i = 0; $i < $len; $i++) {
-        if ($max < $arr[$i]) {
-            $max = $arr[$i];
+    for($i = 0; $i < $len; $i++) {
+        if ($min > $arr[$i]) {
+            $min = $arr[$i];
         }
     }
-    return $max;
+    return $min;
 
 }
 
